@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -21,10 +22,10 @@ hr {
 .centered-container {
     max-width: 600px;
     margin: auto;
-} 
+}
 
 .link {
-    padding: 0.5rem 1rem ;
+    padding: 0.5rem 1rem;
 }
 
 .link-primary {
@@ -60,8 +61,8 @@ hr {
 }
 
 .navigation .nav-brand {
-   font-weight: bold;
-   font-size: 1.1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .navigation .nav-pills {
@@ -84,17 +85,34 @@ hr {
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color: var(--dark-grey); 
+    color: var(--dark-grey);
+    text-align: center;
 }
 
-.section{
+.section {
     padding: 2rem;
 }
 
-.section h1{
+.section h1 {
     text-align: center;
 }
 
 .ow {
     background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
